@@ -2,19 +2,20 @@ h1 {
     display: inline-block;
     vertical-align: 35%;
 }
- main {
+main {
     background-color: rgb(246, 248, 249);
     padding-top: 50px;
  }
 
- .bg-white {
+.bg-white {
     background-color: white;
     width: 60%;
     margin: auto;
+    margin-bottom: 5px;
     padding: 1% 5%;
  }
 
- .bd-rounded {
+.bd-rounded {
     border-radius: 5px;
     color: rgb(204, 209, 214);
     background-color: white;
@@ -22,8 +23,78 @@ h1 {
     padding: 5px;
  }
 
- .bd-rounded:hover {
+.bd-rounded:hover {
     background-color: rgb(70, 173, 241);
     color: white;
     border: none;
  }
+
+h2:before {
+    content: "\23F7";
+}
+
+.editorial::after {
+    content: "Editorial";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(69, 171, 234);
+}
+
+.q1-goals::after {
+    content: "Q1 Goals";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(156, 114, 228);
+}
+
+.recruiting::after {
+    content: "Recruiting";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(100, 192, 169);
+}
+
+.mobile::after {
+    content: "Mobile";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(242, 158, 51);
+}
+
+.website::after {
+    content: "Website";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(216, 99, 161);
+}
+
+.sales::after {
+    content: "Sales";
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgb(176, 201, 38);
+}
