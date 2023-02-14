@@ -1,24 +1,39 @@
+header {
+    padding: 5px 20px;
+}
 h1 {
     display: inline-block;
     vertical-align: 35%;
 }
-main {
+
+body {
     background-color: rgb(246, 248, 249);
-    padding-top: 50px;
+}
+
+main {
+    padding-top: 30px;
  }
 
-.bg-white {
-    background-color: white;
+.list {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.list,
+.buttons {
     width: 60%;
     margin: auto;
     margin-bottom: 5px;
     padding: 1% 5%;
  }
 
+.bg-white {
+    background-color: white;
+}
+
 .bd-rounded {
     border-radius: 5px;
     color: rgb(204, 209, 214);
-    background-color: white;
     border: 1px solid rgb(204, 209, 214) ;
     padding: 5px;
  }
@@ -33,68 +48,55 @@ h2:before {
     content: "\23F7";
 }
 
-.editorial::after {
-    content: "Editorial";
+.category {
     font-size: 12px;
     border: none;
     border-radius: 15px;
-    padding: 8px;
+    padding: 4px 8px;
     text-align: center;
     color: white;
+}
+
+.blue {
     background-color: rgb(69, 171, 234);
 }
 
-.q1-goals::after {
-    content: "Q1 Goals";
-    font-size: 12px;
-    border: none;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    color: white;
-    background-color: rgb(156, 114, 228);
+.violet {
+    background-color: rgb(156, 114, 228)
 }
 
-.recruiting::after {
-    content: "Recruiting";
-    font-size: 12px;
-    border: none;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    color: white;
+.green {
     background-color: rgb(100, 192, 169);
 }
 
-.mobile::after {
-    content: "Mobile";
-    font-size: 12px;
-    border: none;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    color: white;
+.orange {
     background-color: rgb(242, 158, 51);
 }
 
-.website::after {
-    content: "Website";
-    font-size: 12px;
-    border: none;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    color: white;
+.pink {
     background-color: rgb(216, 99, 161);
 }
 
-.sales::after {
-    content: "Sales";
-    font-size: 12px;
-    border: none;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    color: white;
+.ltgreen{
     background-color: rgb(176, 201, 38);
+}
+
+.check::before {
+    content: "\01F5F8";
+    padding: 2px 4px;
+    border: 2px solid rgb(114, 198, 178);
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 50%;
+    color: rgb(114, 198, 178);
+}
+
+.not-check::before {
+    content: "\2573";
+    padding: 4px 5px;
+    border: 2px solid rgb(232, 63, 55);
+    font-size: 8px;
+    font-weight: bolder;
+    border-radius: 50%;
+    color: rgb(232, 63, 55);
 }

@@ -10,70 +10,94 @@
 </head>
 <body>
     <!-- Titolo e logo -->
-    <header>
+    <header class="bg-white">
         <img src="./assets/img/Logo.png" alt="logo">
         <h1>Toboolist</h1>
     </header>
     <main>
         <!-- Buttons -->
         <section class="bg-white buttons">
-            <button class="bd-rounded">
+            <button class="bd-rounded bg-white">
                 Add Task
             </button>
-            <button class="bd-rounded">
+            <button class="bd-rounded bg-white">
                 Add Section
             </button>
         </section>
         
         <!-- Lists -->
-        <section class="bg-white">
+        <section class="bg-white list">
             <!-- New task -->
             <div>
                 <h2>New Task</h2>
                 <ul>
-                    <li class="editorial check">
+                    <li class="check">
                         Quarterly Newsletter
+                        <span class="category blue">
+                            Editorial
+                        </span>
                     </li>
+                    
                 </ul>
             </div>
             <!-- Today -->
             <div>
                 <h2>Today</h2>
                 <ul>
-                    <li class="editorial check">
+                    <li class="check">
                         Recruiting blog post
+                        <span class="category blue">
+                            Editorial
+                        </span>
                     </li>
-                    <li class="q1-goals check">
+                    <li class="check">
                         Mobile app launch
+                        <span class="category violet">
+                            Q1 Goals
+                        </span>
                     </li>
-                    <li class="recruiting not-check">
+                    <li class="not-check">
                         Interview John H.
+                        <span class="category green">
+                            Recruiting
+                        </span>
                     </li>
-                    <li class="mobile check">
+                    <li class="check">
                         Summit update to mobiile storefronts
+                        <span class="category orange">
+                            Mobile
+                        </span>
                     </li>
                 </ul>
             </div>
             <!-- Upcoming -->
             <div>
-                <h2>Upcomning</h2>
+                <h2>Upcoming</h2>
                 <ul>
                     <li class="not-check">
                         Schedule meeting with Alex
                     </li>
-                    <li class="website check">
+                    <li class="check">
                         Homepage refresh
+                        <span class="category pink">
+                            Website
+                        </span>
                     </li>
-                    <li class="sales check">
+                    <li class="check">
                         Onboard new Sales team members
+                        <span class="category ltgreen">
+                            Sales
+                        </span>
                     </li>
-                    <li class="editorial check">
+                    <li class="check">
                         Review editorial calendar
+                        <span class="category blue">
+                            Editorial
+                        </span>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
-
 </body>
 </html>
